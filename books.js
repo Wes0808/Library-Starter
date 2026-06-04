@@ -1,5 +1,8 @@
 function renderBooks() {
-  <div class="book">
+  const booksWrapper = document.querySelector(".books");
+
+  booksWrapper.innerHTML = booksHtml;
+  `<div class="book">
 
             <figure class="book__img--wrapper">
               <img class="book__img" src="assets/atomic habits.jpg" alt=""></img>
@@ -17,7 +20,10 @@ function renderBooks() {
             <div class="book__price">
               <span class="book__price--normal">$59.95</span> $14.95
             </div>
-          </div>
+          </div>`
+}
+setTimeout() => {
+  renderBooks();
 }
 
 // FAKE DATA
