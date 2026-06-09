@@ -24,7 +24,7 @@ async function renderBooks(filter) {
               <img class="book__img" src="${book.url}" alt=""></img>
             </figure>
             <div class="book__title">
-              ${book.title};
+              ${book.title}
             </div>
             <div class="book__ratings">
               ${ratingHtml(book.rating)}

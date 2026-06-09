@@ -358,12 +358,21 @@ FEATURES
 .book__ratings {
   margin-bottom: 8px;
   color: #fabf2a;
+  font-size: 16px;
 }
 
 .book__price--normal {
   text-decoration: line-through;
   padding-right: 6px;
   color: #bfbfbf;
+}
+
+.book__price--normal {
+  font-size: 20px;
+}
+
+.book__price {
+  font-size: 20px;
 }
 
 /* 
